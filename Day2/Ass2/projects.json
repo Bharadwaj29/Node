@@ -1,0 +1,7 @@
+[
+  { "id": 110, "projectName": "Project-1", "details": "Project-1 details" },
+  { "id": 202, "projectName": "Project-2", "details": "Project-2 details" },
+  { "id": 103, "projectName": "Project-3", "details": "Project-3 details" },
+  { "id": 223, "projectName": "Project-4", "details": "Project-4 details" },
+  { "id": 105, "projectName": "Project-5", "details": "Project-5 details" }
+]
