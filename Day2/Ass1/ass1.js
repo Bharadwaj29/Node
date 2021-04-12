@@ -1,5 +1,16 @@
 const readline = require("readline");
 const fs = require("fs");
+const express = require("express");
+
+const app = express();
+
+app.get("/", function (req, res) {
+  let data = JSON.parse(fs.readFileSync("data.json", "utf-8"));
+
+  res.json(data);
+});
+
+app.listen(3000);
 
 var filenames = [];
 
